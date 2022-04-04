@@ -1,0 +1,159 @@
+
+#homeProjectSection{
+    margin: 0;
+    width: 100vw;
+    background-color: rgb(36, 42, 67);
+    display: flex;
+    flex-wrap: wrap;
+
+    .projectLink{
+        text-decoration: none;
+        color: white;
+        width: 100%;
+        h4{
+            width:  40%;
+            margin: 0 auto;
+    
+            hr{
+                height: 3px;
+                width: 100%;
+                opacity: 1;
+            }
+        }
+    }
+
+    #mockX, #wayte, #destinationNYC, #technologies{
+        height: 25em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1rem;
+
+
+        transition: box-shadow .6s;
+
+        &:hover{
+            box-shadow: none;
+        }
+        
+    }
+
+    #mockX{
+        background-image: url("../../../images/MockX.png");
+        background-size: contain;
+        box-shadow: inset 0 0 0 2000px rgba(155, 241, 255, .85);
+        width: 40%;
+
+        &:hover{
+            text-shadow: .5px .5px black;
+
+            hr{
+                border-right: .5px solid black;
+                border-bottom: .5px solid black;
+            }
+        }
+    }
+
+    #wayte{
+        background-size: cover;
+        box-shadow: inset 0 0 0 2000px rgba(141, 130, 196, .95);
+        background-image: url("../../../images/Wayte.png");
+        width: 60%;
+        
+        &:hover{
+            text-shadow: .5px .5px black;
+
+            hr{
+                border-right: .5px solid black;
+                border-bottom: .5px solid black;
+            }
+        }
+    }
+
+
+    #destinationNYC{
+        width: 40%;
+        background-image: url("../../../images/DestinationNYC.png");
+        box-shadow: inset 0 0 0 2000px rgba(202,122,113, .9);
+        background-size: cover;
+    }
+
+    #technologies{
+        width: 60%;
+        box-shadow: inset 0 0 0 2000px rgba(224,180,143, .8);
+        background-size: cover;
+        
+        h4{
+            transition: opacity .1s
+        }
+
+        p{  
+            display: none;
+            opacity: 0;
+            transition:  opacity .5s;
+
+        }
+        
+        &:hover{
+            text-shadow: .5px .5px black;
+
+            p{  
+                margin-top: 2em;
+                opacity: 1;
+                display: flex;
+                justify-content: space-evenly;
+                flex-wrap: wrap;
+                padding: 1em;
+
+                img{
+                    margin: .5em;
+                }
+            }
+        }
+    }
+
+    hr{
+        height: 2px;
+        background-color: white;
+    }
+}
+
+.mongoIcon{
+    content: url("../../../images/Mongo.png");
+}
+
+.postgresIcon{
+    content: url("../../../images/Postgres.png")
+}
+
+.nodeIcon{
+    content: url("../../../images/Node.png")
+}
+
+.javascriptIcon{
+    content: url("../../../images/Javascript.png")
+}
+
+.pythonIcon{
+    content: url("../../../images/Python.png")
+}
+
+.cssIcon{
+    content: url("../../../images/CSS3.png")
+}
+.htmlIcon{
+    content: url("../../../images/Html.png")
+}
+
+.reactIcon{
+    content: url("../../../images/React.png");
+    width: 2em;
+    height: 2em;
+}
+
+.djangoIcon{
+    content: url("../../../images/Django.png");
+    width: 2em;
+    height: 2em;
+}
+

@@ -1,7 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `new`,
+    title: `Portfolio`,
     siteUrl: `https://www.yourdomain.tld`,
   },
-  plugins: [],
+  plugins: [
+    `gatsby-plugin-fontawesome-css`,
+    `gatsby-plugin-sass`,
+    `gatsby-plugin-mdx`,
+    `gatsby-plugin-sharp`,
+    `gatsby-plugin-image`
+  ],
 }
+// /
