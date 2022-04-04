@@ -34,7 +34,7 @@ function Main(){
                     </Link>
                 </div>
                 <div id={Styles.destinationNYC}>
-                    <Link className={Styles.projectLink} to="#">
+                    <Link className={Styles.projectLink} to="https://destination-nyc.herokuapp.com/" target="_blank">
                         <h4>
                             <b>DestinationNYC</b>
                             <hr />
@@ -43,7 +43,7 @@ function Main(){
                 </div>
                 
                 <div id={Styles.mockX}>
-                    <Link className={Styles.projectLink} to='#'>
+                    <Link className={Styles.projectLink} to='https://mock-x.herokuapp.com/' target="_blank">
                         <h4>
                             <b>MockX</b>
                             <hr />
@@ -52,7 +52,7 @@ function Main(){
                     </Link>
                 </div>
                 <div id={Styles.wayte}>
-                    <Link className={Styles.projectLink} to="#">
+                    <Link className={Styles.projectLink} to="https://wayte.netlify.app/" target="_blank">
                         <h4>
                             <b>Wayte</b>
                             <hr />
