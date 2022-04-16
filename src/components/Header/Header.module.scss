@@ -41,7 +41,7 @@ nav{
 }
 
 #headerSection{
-    height: 60vh;
+    height: 80vh;
     width: 100vw;
     background-size: cover;
     box-shadow: inset 0 0 0 2000px rgba(36, 42, 67, .95);
@@ -112,4 +112,31 @@ nav{
 
 .navLinkText{
     text-decoration: none;
+}
+
+#headerSocials{
+    margin-left: 2em;
+
+    svg{
+        margin-left: .5em;
+        color: white;
+        transition: color .4s;
+
+        &:hover{
+            color:#9bf1ff;
+        }
+    }
+}
+
+#aboutMe{
+    text-indent: 5em;
+}
+
+#ProjectHeader{
+    color: white;
+    text-align: center;
+    letter-spacing: .5em;
+    font-weight: bold;
+    margin-top: 3.5em;
+    text-decoration: underline;
 }
