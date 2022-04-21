@@ -6,8 +6,9 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 function Main(){
     return (
         <>
+        <h3 id={Styles.ProjectHeader}>Projects</h3>
         <section id={Styles.homeProjectSection}>
-            <div id={Styles.technologies}>
+            {/* <div id={Styles.technologies}>
                     <Link className={Styles.projectLink} to='#'>
                         <h4>
                             <b>Technologies</b>    
@@ -33,7 +34,9 @@ function Main(){
                                 <img src="" alt="Django" className={Styles.djangoIcon} />
                             </p>
                     </Link>
-                </div>
+                </div> */}
+                {/* <h3 id={Styles.ProjectHeader}>Projects</h3> */}
+
                 <div id={Styles.destinationNYC}>
                     <Link className={Styles.projectLink} to="https://destination-nyc.herokuapp.com/" target="_blank">
                         <h4>

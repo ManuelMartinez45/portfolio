@@ -1,9 +1,7 @@
 import * as React from 'react'
 import * as Styles from './Contact.module.scss'
-import { Link } from 'gatsby'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import { faEnvelope, faPhone, faUser } from '@fortawesome/free-solid-svg-icons'
-import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faEnvelope, faPhone, faCode } from '@fortawesome/free-solid-svg-icons'
 
 function Contact(){
     return (
@@ -50,17 +48,28 @@ function Contact(){
                 <div id={Styles.infoSubSection}>
                     <div id={Styles.subSectionBody}>
                         <p>
-                            <FontAwesomeIcon className={Styles.iconClass}icon={faUser} />
+                            <FontAwesomeIcon className={Styles.iconClass}icon={faCode} />
                         </p>
-                        <h4>Socials</h4>
+                        <h4>Technologies</h4>
                     </div>
-                    <p id={Styles.subSectionInfo}>
-                        <Link to='https://github.com/ManuelMartinez45' target="_blank" className={Styles.socialIcon}>
-                            <FontAwesomeIcon  icon={ faGithub }/>
-                        </Link>
-                        <Link to="https://www.linkedin.com/in/manny-martinez-48770511a/" target="_blank" className={Styles.socialIcon}>
-                            <FontAwesomeIcon  icon={ faLinkedin }/>
-                        </Link>
+                    <p id={Styles.subSectionTechnologies}>
+                        <img className={Styles.mongoIcon} src="" alt="MongoDB Icon" />
+
+                        <img className={Styles.postgresIcon} src="" alt="PostgreSQL Icon" />
+                        
+                        <img className={Styles.nodeIcon} src="" alt="Node.js Icon" />
+                        
+                        <img className={Styles.javascriptIcon} src="" alt="Javascript Icon" />
+
+                        <img className={Styles.pythonIcon} src="" alt="Python Icon" />
+
+                        <img src="" alt="CSS3 Icon" className={Styles.cssIcon} />
+
+                        <img src="" alt="HTML5 Icon" className={Styles.htmlIcon} />
+                        
+                        <img src="" alt="React.js Icon" className={Styles.reactIcon} />
+
+                        <img src="" alt="Django" className={Styles.djangoIcon} />
                     </p>
                 </div>
                

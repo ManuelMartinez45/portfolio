@@ -145,3 +145,49 @@ body{
     }
 }
 }
+
+.mongoIcon{
+    content: url("../../../images/Mongo.png");
+}
+
+.postgresIcon{
+    content: url("../../../images/Postgres.png")
+}
+
+.nodeIcon{
+    content: url("../../../images/Node.png")
+}
+
+.javascriptIcon{
+    content: url("../../../images/Javascript.png")
+}
+
+.pythonIcon{
+    content: url("../../../images/Python.png")
+}
+
+.cssIcon{
+    content: url("../../../images/CSS3.png")
+}
+.htmlIcon{
+    content: url("../../../images/Html.png")
+}
+
+.reactIcon{
+    content: url("../../../images/React.png");
+    width: 2em;
+    height: 2em;
+}
+
+.djangoIcon{
+    content: url("../../../images/Django.png");
+    width: 2em;
+    height: 2em;
+}
+
+#subSectionTechnologies{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2em;
+}
